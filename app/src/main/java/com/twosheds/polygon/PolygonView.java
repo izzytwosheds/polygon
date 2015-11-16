@@ -50,4 +50,11 @@ public class PolygonView extends View {
             canvas.drawLine(x1, y1, x2, y2, mPaint);
         }
     }
+
+    void setNumSides(int numSides) {
+        if (mNumSides != numSides) {
+            mNumSides = numSides;
+            postInvalidate();
+        }
+    }
 }
