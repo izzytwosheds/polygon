@@ -25,7 +25,7 @@ public class PolygonView extends View {
         mNumSides = 4;
         mPaint = new Paint();
         mPaint.setColor(Color.RED);
-        mPaint.setStrokeWidth(3.0f);
+        mPaint.setStrokeWidth(6.0f);
     }
 
     @Override
